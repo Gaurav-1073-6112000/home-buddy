@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeBuddy - Payments</title>
+    <link
+    rel="shortcut icon"
+    href="../images/favicon.ico"
+    type="image/x-icon"
+  />
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+  />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: gilroy;
+    }
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+    #main {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .paymentConsole {
+      height: 400px;
+      width: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      border-radius: 10px;
+      /* background-color: yellow; */
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+  </style>
+  <body>
+    <div id="main">
+      <div class="paymentConsole">
+        <h4>Payment Success</h4>
+        <img
+          src="https://media.tenor.com/40bYuytgRvYAAAAi/hedge-pay-hpay.gif"
+          alt=""
+          height="150px"
+        />
+        <a class="btn btn-primary" href="/">Back to home</a>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
